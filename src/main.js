@@ -1,6 +1,4 @@
-// Code Practice: Making a Scene
-// Name: Jayden Chung
-// Date: 1/17/24
+
 
 "use strict"
 
@@ -9,7 +7,7 @@ let config = {
     render:{
         pixelArt: true
     },
-    scene: [MainMenu, Play]
+    scene: [PreloadScene, GameScene]
 }
 
 let game = new Phaser.Game(config)
